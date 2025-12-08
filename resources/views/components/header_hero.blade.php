@@ -725,7 +725,7 @@
         <div class="Mayank-widget-container">
           <a
                                 class="Mayank-icon wcf-social-icon social-icon- Mayank-repeater-item-58e8969"
-                                href="https://www.facebook.com/"
+                                href="https://www.linkedin.com/in/mayank-singh2745/"
                                 target="_blank"
                               >
                                 <span class="Mayank-screen-only"
@@ -735,7 +735,7 @@
           </a>
           <a
               class="Mayank-icon wcf-social-icon social-icon- Mayank-repeater-item-7461380"
-              href="https://www.twitter.com/"
+              href="https://github.com/MakSi27"
               target="_blank"
               >
               <span class="Mayank-screen-only"

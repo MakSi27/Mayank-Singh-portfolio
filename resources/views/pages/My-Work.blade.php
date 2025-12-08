@@ -921,9 +921,9 @@
                                         <div class="elementor-widget-container">
                                             <div class="wcf--image">
                                                 <img loading="lazy" decoding="async" width="266" height="515"
-                                                    src="https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/line-img-light.webp"
+                                                    src="images/line-img-light.webp"
                                                     class="attachment-full size-full wp-image-8300" alt=""
-                                                    srcset="https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/line-img-light.webp 266w, https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/line-img-light-155x300.webp 155w"
+                                                    srcset="images/line-img-light.webp 266w, images/line-img-light-155x300.webp 155w"
                                                     sizes="(max-width: 266px) 100vw, 266px" />
                                             </div>
                                         </div>
@@ -1222,7 +1222,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="wcf--image">
                                                 <img loading="lazy" decoding="async" width="58" height="200"
-                                                    src="https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/left-half-circle-dark.webp"
+                                                    src="images/left-half-circle-dark.webp"
                                                     class="attachment-full size-full wp-image-8310" alt="" />
                                             </div>
                                         </div>
@@ -1436,7 +1436,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="wcf--image">
                                                 <img loading="lazy" decoding="async" width="57" height="200"
-                                                    src="https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/right-half-circle-dark.webp"
+                                                    src="images/right-half-circle-dark.webp"
                                                     class="attachment-full size-full wp-image-8311" alt="" />
                                             </div>
                                         </div>
@@ -1674,7 +1674,7 @@
                                                                         </div>
                                                                         <div class="logo">
                                                                             <img decoding="async"
-                                                                                src="https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/client-logo-light.webp"
+                                                                                src="images/client-logo-light.webp"
                                                                                 alt="Quote">
                                                                         </div>
                                                                     </div>
@@ -1704,7 +1704,7 @@
                                                                         </div>
                                                                         <div class="logo">
                                                                             <img decoding="async"
-                                                                                src="https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/client-logo-light.webp"
+                                                                                src="images/client-logo-light.webp"
                                                                                 alt="Quote">
                                                                         </div>
                                                                     </div>
@@ -1735,7 +1735,7 @@
                                                                         </div>
                                                                         <div class="logo">
                                                                             <img decoding="async"
-                                                                                src="https://crowdytheme.com/wp/arolax/branding-agency/wp-content/uploads/sites/13/2024/07/client-logo-light.webp"
+                                                                                src="images/client-logo-light.webp"
                                                                                 alt="Quote">
                                                                         </div>
                                                                     </div>

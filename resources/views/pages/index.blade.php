@@ -11,7 +11,8 @@
 	<script type="text/javascript"
 		src="{{asset('js/wpo-minify-header-169e1450.min.js')}}"
 		id="wpo_min-header-0-js"></script>
-	<title>Best</title>
+	<title>Mayank Singh-Portfolio</title>
+	 
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<style>
@@ -551,7 +552,7 @@
 						<div class="wcf--floating-elements">
 							<div class="floating-element wcf-live-anim- Mayank-repeater-item-45cdebd">
 								<img decoding="async"
-									src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/floatingImag.svg"
+									src="images/floatingImag.svg"
 									alt="floatingImag" />
 							</div>
 						</div>
@@ -607,11 +608,11 @@
 							<div class="Mayank-widget-container">
 								<div class="wcf--image">
 									<img fetchpriority="high" decoding="async" width="915" height="522"
-										src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/banner-right.webp"
+										src="images/banner-right.webp"
 										class="attachment-full size-full wp-image-2613" alt="" srcset="
-                              https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/banner-right.webp         915w,
-                              https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/banner-right-300x171.webp 300w,
-                              https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/banner-right-768x438.webp 768w
+                              images/banner-right.webp         915w,
+                              images/banner-right-300x171.webp 300w,
+                              images/banner-right-768x438.webp 768w
                             " sizes="(max-width: 915px) 100vw, 915px" />
 								</div>
 							</div>
@@ -626,7 +627,7 @@
 							data-widget_type="image.default">
 							<div class="Mayank-widget-container">
 								<img decoding="async" width="20" height="40"
-									src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/05/img-r-2.webp"
+									src="images/img-r-2.webp"
 									class="attachment-full size-full wp-image-3343" alt="" />
 							</div>
 						</div>
@@ -637,12 +638,11 @@
 								<div class="wcf--counter">
 									<div class="count">
 										<span class="wcf--counter-number-prefix"></span>
-										<span class="wcf--counter-number" data-duration="2000" data-to-value="100"
-											data-from-value="0" data-delimiter=",">0</span>
-										<span class="wcf--counter-number-suffix">+</span>
+										<span class="wcf--counter-number" style="    font-size: 30px;">Python Developer</span>
+										<span class="wcf--counter-number-suffix"></span>
 									</div>
 
-									<div class="title">Award winning company.</div>
+									<div class="title">focused on writing clean and efficient code.</div>
 								</div>
 							</div>
 						</div>
@@ -652,7 +652,7 @@
 							data-widget_type="image.default">
 							<div class="Mayank-widget-container">
 								<img decoding="async" width="47" height="47"
-									src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/hero_icon.svg"
+									src="images/hero_icon.svg"
 									class="attachment-full size-full wp-image-2627" alt="" />
 							</div>
 						</div>
@@ -667,13 +667,12 @@
 								<div class="wcf--counter">
 									<div class="count">
 										<span class="wcf--counter-number-prefix"></span>
-										<span class="wcf--counter-number" data-duration="2000" data-to-value="2.5"
-											data-from-value="0" data-delimiter=",">0</span>
-										<span class="wcf--counter-number-suffix">m</span>
+											<span class="wcf--counter-number" style="    font-size: 30px;">Doing...</span>
+										
 									</div>
 
 									<div class="title">
-										We consultant customer word-wide
+										AI, ML, and automation projects that make data work smarter.
 									</div>
 								</div>
 							</div>
@@ -684,7 +683,7 @@
 							data-widget_type="image.default">
 							<div class="Mayank-widget-container">
 								<img loading="lazy" decoding="async" width="160" height="55"
-									src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/clientA.png"
+									src="images/aiml-hero.png"
 									class="attachment-full size-full wp-image-2634" alt="" />
 							</div>
 						</div>
@@ -831,7 +830,7 @@
 						<div class="wcf--counter">
 							<div class="count">
 								<span class="wcf--counter-number-prefix"></span>
-								<span class="wcf--counter-number" data-duration="2000" data-to-value="6"
+								<span class="wcf--counter-number" data-duration="2000" data-to-value="25"
 									data-from-value="0" data-delimiter=",">0</span>
 								<span class="wcf--counter-number-suffix">+</span>
 							</div>
@@ -939,10 +938,10 @@
 						data-widget_type="image.default">
 						<div class="Mayank-widget-container">
 							<img loading="lazy" decoding="async" width="410" height="572"
-								src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/about-us.webp"
+								src="images/about-us.webp"
 								class="attachment-full size-full wp-image-2429" alt="" srcset="
-                          https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/about-us.webp         410w,
-                          https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/about-us-215x300.webp 215w
+                          images/about-us.webp         410w,
+                          images/about-us-215x300.webp 215w
                         " sizes="(max-width: 410px) 100vw, 410px" />
 						</div>
 					</div>
@@ -983,7 +982,7 @@
 
 													</div>
 													<div class="wc-btn-wrapper style-1">
-														<a href="https://crowdytheme.com/wp/arolax/it-consultancy-agency/"
+														<a href=""
 															target="_blank" rel="nofollow" class="wc-btn-group">
 															<span class="wc-btn-play">
 																<svg aria-hidden="true"
@@ -1014,7 +1013,7 @@
 											</div>
 											<div class="image">
 												<img decoding="async"
-													src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/05/service-slide-2.webp"
+													src="images/service-slide-2.webp"
 													alt="Image" />
 											</div>
 										</div>
@@ -1034,7 +1033,7 @@
 														I build machine learning models to solve problems and make predictions using scikit-learn, TensorFlow, and PyTorch.
 													</div>
 													<div class="wc-btn-wrapper style-1">
-														<a href="https://crowdytheme.com/wp/arolax/it-consultancy-agency/"
+														<a href=""
 															target="_blank" rel="nofollow" class="wc-btn-group">
 															<span class="wc-btn-play">
 																<svg aria-hidden="true"
@@ -1065,7 +1064,7 @@
 											</div>
 											<div class="image">
 												<img decoding="async"
-													src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/service-slideA.webp"
+													src="images/service-slideA.webp"
 													alt="Image" />
 											</div>
 										</div>
@@ -1085,7 +1084,7 @@
 														I create AI-powered solutions to automate processes, analyze patterns, and assist in data-driven decision making.
 													</div>
 													<div class="wc-btn-wrapper style-1">
-														<a href="https://crowdytheme.com/wp/arolax/it-consultancy-agency/"
+														<a href=""
 															target="_blank" rel="nofollow" class="wc-btn-group">
 															<span class="wc-btn-play">
 																<svg aria-hidden="true"
@@ -1116,7 +1115,7 @@
 											</div>
 											<div class="image">
 												<img decoding="async"
-													src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/05/service-slide-2.webp"
+													src="images/service-slide-2.webp"
 													alt="Image" />
 											</div>
 										</div>
@@ -1292,7 +1291,7 @@
 						data-widget_type="image.default">
 						<div class="Mayank-widget-container">
 							<img loading="lazy" decoding="async" width="320" height="320"
-								src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/success.webp"
+								src="images/success.webp"
 								class="attachment-full size-full wp-image-2353" alt="Skills Illustration" />
 						</div>
 					</div>
@@ -1372,7 +1371,7 @@
 							data-widget_type="image.default">
 							<div class="Mayank-widget-container">
 								<img loading="lazy" decoding="async" width="22" height="45"
-									src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/05/hununulu.webp"
+									src="images/hununulu.webp"
 									class="attachment-full size-full wp-image-3314" alt="" />
 							</div>
 						</div>
@@ -1383,7 +1382,7 @@
 								<div class="Mayank-image-box-wrapper">
 									<figure class="Mayank-image-box-img">
 										<img loading="lazy" decoding="async" width="69" height="46"
-											src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/step_01.png"
+											src="images/step_01.png"
 											class="attachment-full size-full wp-image-2303" alt="" />
 									</figure>
 									<div class="Mayank-image-box-content">
@@ -1408,7 +1407,7 @@
 								<div class="Mayank-image-box-wrapper">
 									<figure class="Mayank-image-box-img">
 										<img loading="lazy" decoding="async" width="76" height="46"
-											src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/step_02.png"
+											src="images/step_02.png"
 											class="attachment-full size-full wp-image-2325" alt="" />
 									</figure>
 									<div class="Mayank-image-box-content">
@@ -1428,7 +1427,7 @@
 							data-widget_type="image.default">
 							<div class="Mayank-widget-container">
 								<img loading="lazy" decoding="async" width="46" height="25"
-									src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/05/hununulu-2.webp"
+									src="images/hununulu-2.webp"
 									class="attachment-full size-full wp-image-3324" alt="" />
 							</div>
 						</div>
@@ -1443,7 +1442,7 @@
 								<div class="Mayank-image-box-wrapper">
 									<figure class="Mayank-image-box-img">
 										<img loading="lazy" decoding="async" width="74" height="46"
-											src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/step_03.png"
+											src="images/step_03.png"
 											class="attachment-full size-full wp-image-2326" alt="" />
 									</figure>
 									<div class="Mayank-image-box-content">
@@ -1463,7 +1462,7 @@
 							data-widget_type="image.default">
 							<div class="Mayank-widget-container">
 								<img loading="lazy" decoding="async" width="22" height="45"
-									src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/05/hununulu.webp"
+									src="images/hununulu.webp"
 									class="attachment-full size-full wp-image-3314" alt="" />
 							</div>
 						</div>
@@ -1478,7 +1477,7 @@
 								<div class="Mayank-image-box-wrapper">
 									<figure class="Mayank-image-box-img">
 										<img loading="lazy" decoding="async" width="77" height="46"
-											src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/step_04.png"
+											src="images/step_04.png"
 											class="attachment-full size-full wp-image-2327" alt="" />
 									</figure>
 									<div class="Mayank-image-box-content">
@@ -1818,14 +1817,14 @@
 								<article
 									class="wcf-post post-2202 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-business tag-design tag-develop tag-software">
 									<div class="thumb">
-										<a href="https://crowdytheme.com/wp/arolax/it-consultancy-agency/how-to-create-your-purpose-filled-career-comfortable/"
+										<a href="how-to-create-your-purpose-filled-career-comfortable/"
 											aria-label="How to create your purpose-filled career comfortable">
 											<img loading="lazy" decoding="async" width="300" height="208"
-												src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/blog-01-300x208.webp"
+												src="images/blog-01-300x208.webp"
 												class="attachment-medium size-medium wp-image-2205" alt="blog-01"
 												srcset="
-                                  https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/blog-01-300x208.webp 300w,
-                                  https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/blog-01.webp         390w
+                                  images/blog-01-300x208.webp 300w,
+                                  images/blog-01.webp         390w
                                 " sizes="(max-width: 300px) 100vw, 300px" />
 										</a>
 									</div>
@@ -1846,13 +1845,13 @@
 								<article
 									class="wcf-post post-2079 post type-post status-publish format-standard has-post-thumbnail hentry category-business">
 									<div class="thumb">
-										<a href="https://crowdytheme.com/wp/arolax/it-consultancy-agency/how-to-create-your-purpose-filled-career-comfortable-clothes-3/"
+										<a href="how-to-create-your-purpose-filled-career-comfortable-clothes-3/"
 											aria-label="How to create your purpose-filled career comfortable clothes">
 											<img loading="lazy" decoding="async" width="300" height="208"
-												src="https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/blog-02-300x208.webp"
+												src="images/blog-02-300x208.webp"
 												class="attachment-medium size-medium wp-image-2207" alt="" srcset="
-                                  https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/blog-02-300x208.webp 300w,
-                                  https://crowdytheme.com/wp/arolax/it-consultancy-agency/wp-content/uploads/sites/61/2024/04/blog-02.webp         390w
+                                  images/blog-02-300x208.webp 300w,
+                                  images/blog-02.webp         390w
                                 " sizes="(max-width: 300px) 100vw, 300px" />
 										</a>
 									</div>
@@ -1861,12 +1860,12 @@
 										<ul class="wcf-taxonomy">
 											<li>
 												<a
-													href="https://crowdytheme.com/wp/arolax/it-consultancy-agency/category/business/">Data Analysis</a>
+													href="">Data Analysis</a>
 											</li>
 										</ul>
 										<h3 class="title">
 											<a
-												href="https://crowdytheme.com/wp/arolax/it-consultancy-agency/how-to-create-your-purpose-filled-career-comfortable-clothes-3/">
+												href="#">
 												<span class="highlight"></span> Data Analysis on Sales Dataset
 											</a>
 										</h3>

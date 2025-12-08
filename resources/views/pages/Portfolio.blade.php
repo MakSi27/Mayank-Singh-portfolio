@@ -10,7 +10,188 @@
         <link rel='stylesheet' id='elementor-post-7595-css' href='{{ asset('css/post-75958f33.min.css') }}'
         type='text/css' media='all' />
     <link rel="stylesheet" href="{{ asset('css/new-home.min.css') }}">
+<style>
+    /*! elementor - v3.23.0 - 05-08-2024 */
+    .elementor-heading-title {
+        padding: 0;
+        margin: 0;
+        line-height: 1
+    }
 
+    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+        color: inherit;
+        font-size: inherit;
+        line-height: inherit
+    }
+
+    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+        font-size: 15px
+    }
+
+    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+        font-size: 19px
+    }
+
+    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+        font-size: 29px
+    }
+
+    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+        font-size: 39px
+    }
+
+    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+        font-size: 59px
+    }
+</style>
+<style>
+    /*! elementor - v3.23.0 - 05-08-2024 */
+    .elementor-widget-divider {
+    --divider-border-style: none;
+    --divider-border-width: 1px;
+    --divider-color: #0c0d0e;
+    --divider-icon-size: 20px;
+    --divider-element-spacing: 10px;
+    --divider-pattern-height: 24px;
+    --divider-pattern-size: 20px;
+    --divider-pattern-url: none;
+    --divider-pattern-repeat: repeat-x
+    }
+
+    .elementor-widget-divider .elementor-divider {
+    display: flex
+    }
+
+    .elementor-widget-divider .elementor-divider__text {
+    font-size: 15px;
+    line-height: 1;
+    max-width: 95%
+    }
+
+    .elementor-widget-divider .elementor-divider__element {
+    margin: 0 var(--divider-element-spacing);
+    flex-shrink: 0
+    }
+
+    .elementor-widget-divider .elementor-icon {
+    font-size: var(--divider-icon-size)
+    }
+
+    .elementor-widget-divider .elementor-divider-separator {
+    display: flex;
+    margin: 0;
+    direction: ltr
+    }
+
+    .elementor-widget-divider--view-line_icon .elementor-divider-separator,
+    .elementor-widget-divider--view-line_text .elementor-divider-separator {
+    align-items: center
+    }
+
+    .elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
+    .elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
+    .elementor-widget-divider--view-line_text .elementor-divider-separator:after,
+    .elementor-widget-divider--view-line_text .elementor-divider-separator:before {
+    display: block;
+    content: "";
+    border-block-end: 0;
+    flex-grow: 1;
+    border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+    }
+
+    .elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+    flex-grow: 0;
+    flex-shrink: 100
+    }
+
+    .elementor-widget-divider--element-align-left .elementor-divider-separator:before {
+    content: none
+    }
+
+    .elementor-widget-divider--element-align-left .elementor-divider__element {
+    margin-left: 0
+    }
+
+    .elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+    flex-grow: 0;
+    flex-shrink: 100
+    }
+
+    .elementor-widget-divider--element-align-right .elementor-divider-separator:after {
+    content: none
+    }
+
+    .elementor-widget-divider--element-align-right .elementor-divider__element {
+    margin-right: 0
+    }
+
+    .elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
+    flex-grow: 0;
+    flex-shrink: 100
+    }
+
+    .elementor-widget-divider--element-align-start .elementor-divider-separator:before {
+    content: none
+    }
+
+    .elementor-widget-divider--element-align-start .elementor-divider__element {
+    margin-inline-start: 0
+    }
+
+    .elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
+    flex-grow: 0;
+    flex-shrink: 100
+    }
+
+    .elementor-widget-divider--element-align-end .elementor-divider-separator:after {
+    content: none
+    }
+
+    .elementor-widget-divider--element-align-end .elementor-divider__element {
+    margin-inline-end: 0
+    }
+
+    .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+    border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
+    }
+
+    .elementor-widget-divider--separator-type-pattern {
+    --divider-border-style: none
+    }
+
+    .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
+    .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
+    .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
+    .elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
+    width: 100%;
+    min-height: var(--divider-pattern-height);
+    -webkit-mask-size: var(--divider-pattern-size) 100%;
+    mask-size: var(--divider-pattern-size) 100%;
+    -webkit-mask-repeat: var(--divider-pattern-repeat);
+    mask-repeat: var(--divider-pattern-repeat);
+    background-color: var(--divider-color);
+    -webkit-mask-image: var(--divider-pattern-url);
+    mask-image: var(--divider-pattern-url)
+    }
+
+    .elementor-widget-divider--no-spacing {
+    --divider-pattern-size: auto
+    }
+
+    .elementor-widget-divider--bg-round {
+    --divider-pattern-repeat: round
+    }
+
+    .rtl .elementor-widget-divider .elementor-divider__text {
+    direction: rtl
+    }
+
+    .e-con-inner>.elementor-widget-divider,
+    .e-con>.elementor-widget-divider {
+    width: var(--container-widget-width, 100%);
+    --flex-grow: var(--container-widget-flex-grow)
+    }
+</style>
 @endsection
 
 
@@ -47,40 +228,7 @@
                                                     data-settings="{&quot;text_transform_origin&quot;:&quot;top center -50&quot;,&quot;wcf_text_animation&quot;:&quot;text_move&quot;,&quot;text_delay&quot;:0.3,&quot;text_rotation_di&quot;:&quot;y&quot;,&quot;text_rotation&quot;:-40,&quot;text_duration&quot;:1,&quot;text_stagger&quot;:0.02,&quot;text_on_scroll&quot;:&quot;yes&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
                                                     data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <style>
-                                                            /*! elementor - v3.23.0 - 05-08-2024 */
-                                                            .elementor-heading-title {
-                                                                padding: 0;
-                                                                margin: 0;
-                                                                line-height: 1
-                                                            }
-
-                                                            .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                                color: inherit;
-                                                                font-size: inherit;
-                                                                line-height: inherit
-                                                            }
-
-                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                                font-size: 15px
-                                                            }
-
-                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                                font-size: 19px
-                                                            }
-
-                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                                font-size: 29px
-                                                            }
-
-                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                                font-size: 39px
-                                                            }
-
-                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                                font-size: 59px
-                                                            }
-                                                        </style>
+                                                        
                                                         <h2 class="elementor-heading-title elementor-size-default">App </h2>
                                                     </div>
                                                 </div>
@@ -89,154 +237,7 @@
                                                     data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
                                                     data-widget_type="divider.default">
                                                     <div class="elementor-widget-container">
-                                                        <style>
-                                                            /*! elementor - v3.23.0 - 05-08-2024 */
-                                                            .elementor-widget-divider {
-                                                                --divider-border-style: none;
-                                                                --divider-border-width: 1px;
-                                                                --divider-color: #0c0d0e;
-                                                                --divider-icon-size: 20px;
-                                                                --divider-element-spacing: 10px;
-                                                                --divider-pattern-height: 24px;
-                                                                --divider-pattern-size: 20px;
-                                                                --divider-pattern-url: none;
-                                                                --divider-pattern-repeat: repeat-x
-                                                            }
-
-                                                            .elementor-widget-divider .elementor-divider {
-                                                                display: flex
-                                                            }
-
-                                                            .elementor-widget-divider .elementor-divider__text {
-                                                                font-size: 15px;
-                                                                line-height: 1;
-                                                                max-width: 95%
-                                                            }
-
-                                                            .elementor-widget-divider .elementor-divider__element {
-                                                                margin: 0 var(--divider-element-spacing);
-                                                                flex-shrink: 0
-                                                            }
-
-                                                            .elementor-widget-divider .elementor-icon {
-                                                                font-size: var(--divider-icon-size)
-                                                            }
-
-                                                            .elementor-widget-divider .elementor-divider-separator {
-                                                                display: flex;
-                                                                margin: 0;
-                                                                direction: ltr
-                                                            }
-
-                                                            .elementor-widget-divider--view-line_icon .elementor-divider-separator,
-                                                            .elementor-widget-divider--view-line_text .elementor-divider-separator {
-                                                                align-items: center
-                                                            }
-
-                                                            .elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
-                                                            .elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
-                                                            .elementor-widget-divider--view-line_text .elementor-divider-separator:after,
-                                                            .elementor-widget-divider--view-line_text .elementor-divider-separator:before {
-                                                                display: block;
-                                                                content: "";
-                                                                border-block-end: 0;
-                                                                flex-grow: 1;
-                                                                border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
-                                                                flex-grow: 0;
-                                                                flex-shrink: 100
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-left .elementor-divider-separator:before {
-                                                                content: none
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-left .elementor-divider__element {
-                                                                margin-left: 0
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
-                                                                flex-grow: 0;
-                                                                flex-shrink: 100
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-right .elementor-divider-separator:after {
-                                                                content: none
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-right .elementor-divider__element {
-                                                                margin-right: 0
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
-                                                                flex-grow: 0;
-                                                                flex-shrink: 100
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-start .elementor-divider-separator:before {
-                                                                content: none
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-start .elementor-divider__element {
-                                                                margin-inline-start: 0
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
-                                                                flex-grow: 0;
-                                                                flex-shrink: 100
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-end .elementor-divider-separator:after {
-                                                                content: none
-                                                            }
-
-                                                            .elementor-widget-divider--element-align-end .elementor-divider__element {
-                                                                margin-inline-end: 0
-                                                            }
-
-                                                            .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
-                                                                border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
-                                                            }
-
-                                                            .elementor-widget-divider--separator-type-pattern {
-                                                                --divider-border-style: none
-                                                            }
-
-                                                            .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
-                                                            .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
-                                                            .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
-                                                            .elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
-                                                                width: 100%;
-                                                                min-height: var(--divider-pattern-height);
-                                                                -webkit-mask-size: var(--divider-pattern-size) 100%;
-                                                                mask-size: var(--divider-pattern-size) 100%;
-                                                                -webkit-mask-repeat: var(--divider-pattern-repeat);
-                                                                mask-repeat: var(--divider-pattern-repeat);
-                                                                background-color: var(--divider-color);
-                                                                -webkit-mask-image: var(--divider-pattern-url);
-                                                                mask-image: var(--divider-pattern-url)
-                                                            }
-
-                                                            .elementor-widget-divider--no-spacing {
-                                                                --divider-pattern-size: auto
-                                                            }
-
-                                                            .elementor-widget-divider--bg-round {
-                                                                --divider-pattern-repeat: round
-                                                            }
-
-                                                            .rtl .elementor-widget-divider .elementor-divider__text {
-                                                                direction: rtl
-                                                            }
-
-                                                            .e-con-inner>.elementor-widget-divider,
-                                                            .e-con>.elementor-widget-divider {
-                                                                width: var(--container-widget-width, 100%);
-                                                                --flex-grow: var(--container-widget-flex-grow)
-                                                            }
-                                                        </style>
+                                                        
                                                         <div class="elementor-divider">
                                                             <span class="elementor-divider-separator">
                                                             </span>
@@ -468,7 +469,7 @@
                                                             height="500" src="images/1-1.jpg"
                                                             class="attachment-large size-large wp-image-402"
                                                             alt=""
-                                                            srcset="https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/1-1.jpg 251w, https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/1-1-151x300.jpg 151w"
+                                                            srcset="images/1-1.jpg 251w, images/1-1-151x300.jpg 151w"
                                                             sizes="(max-width: 251px) 100vw, 251px" />
                                                     </div>
                                                 </div>
@@ -486,7 +487,7 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="wcf--video-popup">
                                                                 <a class="wcf-popup-btn "
-                                                                    href="https://crowdytheme.com/assets/wp-content/uploads/2024/06/video_brodcust.mp4"
+                                                                    href="#"
                                                                     aria-label="Popup Video Open Icon">
                                                                     <i aria-hidden="true"
                                                                         class="arolax-theme arolax-wcf-icon icon-wcf-play-icon"></i>
@@ -1415,7 +1416,7 @@
                                                                 <div class="source">
                                                                     <video muted autoplay loop>
                                                                         <source
-                                                                            src="https://crowdytheme.com/assets/wp-content/uploads/2024/07/64c7939a3f3362cd11071c38_618b7703c1a5dd464a740dbe_spark_dribbbles-transcode-transcode.mp4"
+                                                                            src="#"
                                                                             type="video/mp4">
                                                                     </video>
                                                                 </div>
@@ -2513,7 +2514,7 @@
                                                                             src="images/about-2.webp"
                                                                             class="attachment-full size-full wp-image-10"
                                                                             alt=""
-                                                                            srcset="https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/about-2.webp 360w, https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/about-2-237x300.webp 237w"
+                                                                            srcset="images/about-2.webp 360w, images/about-2-237x300.webp 237w"
                                                                             sizes="(max-width: 360px) 100vw, 360px" />
                                                                     </a>
                                                                 </div>
@@ -2558,7 +2559,7 @@
                                                                             src="images/about-1.webp"
                                                                             class="attachment-full size-full wp-image-9"
                                                                             alt=""
-                                                                            srcset="https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/about-1.webp 330w, https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/about-1-300x164.webp 300w"
+                                                                            srcset="images/about-1.webp 330w, images/about-1-300x164.webp 300w"
                                                                             sizes="(max-width: 330px) 100vw, 330px" />
                                                                     </a>
                                                                 </div>
@@ -2603,7 +2604,7 @@
                                                                             src="images/blog-1.webp"
                                                                             class="attachment-full size-full wp-image-11"
                                                                             alt=""
-                                                                            srcset="https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/blog-1.webp 365w, https://crowdytheme.com/wp/arolax/web-design-agencey/wp-content/uploads/sites/15/2024/06/blog-1-300x230.webp 300w"
+                                                                            srcset="images/blog-1.webp 365w, images/blog-1-300x230.webp 300w"
                                                                             sizes="(max-width: 365px) 100vw, 365px" />
                                                                     </a>
                                                                 </div>
@@ -3332,344 +3333,273 @@
 @endsection
 
 @section('footer')
-    <div data-elementor-type="wp-post" data-elementor-id="41" class="elementor elementor-41">
-        <div class="elementor-element elementor-element-cb74098 e-con-full e-flex e-con e-parent"
-            data-id="cb74098" data-element_type="container"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-            <div class="elementor-element elementor-element-d2658e2 e-con-full e-flex e-con e-child"
-                data-id="d2658e2" data-element_type="container"
-                data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                <div class="elementor-element elementor-element-b9c8e74 e-con-full e-flex e-con e-child"
-                    data-id="b9c8e74" data-element_type="container"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                    <div class="elementor-element elementor-element-e4eee91 e-con-full e-flex e-con e-child"
-                        data-id="e4eee91" data-element_type="container"
-                        data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                        <div class="elementor-element elementor-element-f8d9194 e-con-full e-flex e-con e-child"
-                            data-id="f8d9194" data-element_type="container"
-                            data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                            <div class="elementor-element elementor-element-b9cb4d4 elementor-widget elementor-widget-wcf--site-logo"
-                                data-id="b9cb4d4" data-element_type="widget"
-                                data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                data-widget_type="wcf--site-logo.default">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-image">
-                                        <a href="https://crowdytheme.com/wp/arolax/ai-agencey/"
-                                            aria-label="Site Logo">
-                                            <img width="188" height="51"
-                                                src="images/Logo-1.png"
-                                                class="attachment-full size-full wp-image-1483" alt="" />
+<div data-elementor-type="wp-post" data-elementor-id="41" class="elementor elementor-41">
+	<div class="elementor-element elementor-element-cb74098 e-con-full e-flex e-con e-parent" data-id="cb74098"
+		data-element_type="container"
+		data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+		<div class="elementor-element elementor-element-d2658e2 e-con-full e-flex e-con e-child" data-id="d2658e2"
+			data-element_type="container"
+			data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+			<div class="elementor-element elementor-element-b9c8e74 e-con-full e-flex e-con e-child" data-id="b9c8e74"
+				data-element_type="container"
+				data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+				<div class="elementor-element elementor-element-e4eee91 e-con-full e-flex e-con e-child"
+					data-id="e4eee91" data-element_type="container"
+					data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+					<div class="elementor-element elementor-element-f8d9194 e-con-full e-flex e-con e-child"
+						data-id="f8d9194" data-element_type="container"
+						data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+						
+						<div class="elementor-element elementor-element-6d2c3e5 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-heading"
+							data-id="6d2c3e5" data-element_type="widget"
+							data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
+							data-widget_type="heading.default">
+							<div class="elementor-element elementor-element-c9d63c7 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-wcf--title"
+								style="    max-width: 100%;
+                                width: 100%;" data-id="c9d63c7" data-element_type="widget"
+								data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
+								data-widget_type="wcf--title.default">
+								<div class="elementor-widget-container">
+									<h3 class="wcf--title">Get in Touch with Me</h3>
+								</div>
+							</div>
+							<div class="elementor-widget-container">
+
+								<h2 class="elementor-heading-title elementor-size-default">I am open to professional opportunities in data science, machine learning, and artificial intelligence. I aim to apply my analytical and problem-solving skills to create impactful solutions and contribute to innovative projects.<div class="elementor-widget-container" style="    font-family: oak_suns, Sans-serif; font-size: 18px; font-weight: 600; line-height: 1.6em; color: #FFF; transition: color 0.3s;"><br>
+							        <a href="mailto:mayanksingh2745@gmail.com">mayanksingh2745@gmail.com</a>
+						        </h2>
+                                <ul class="elementor-icon-list-items elementor-inline-items">
+									<li class="elementor-icon-list-item elementor-inline-item">
+                                        <a href="#" style="color: #9FAEB6; fill: #9FAEB6;">
+                                            <span class="elementor-icon-list-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"/></svg> </span>
+                                            <span class="elementor-icon-list-text"></span>
                                         </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-6d2c3e5 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-heading"
-                                data-id="6d2c3e5" data-element_type="widget"
-                                data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                                    
-                                    <h2 class="elementor-heading-title elementor-size-default">Arolax is a
-                                        startup design agency based in Canada</h2>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-06b4f9a elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                data-id="06b4f9a" data-element_type="widget"
-                                data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                data-widget_type="icon-list.default">
-                                <div class="elementor-widget-container">
-                                    
-                                    <ul class="elementor-icon-list-items elementor-inline-items">
-                                        <li class="elementor-icon-list-item elementor-inline-item">
+									</li>
+                                    <li class="elementor-icon-list-item elementor-inline-item">
+                                        <a href="#" style="color: #9FAEB6; fill: #9FAEB6;">
                                             <span class="elementor-icon-list-icon">
-                                                <svg aria-hidden="true"
-                                                    class="e-font-icon-svg e-fab-facebook-f"
-                                                    viewBox="0 0 320 512"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
-                                                    </path>
-                                                </svg> </span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M237.9 461.4C237.9 463.4 235.6 465 232.7 465C229.4 465.3 227.1 463.7 227.1 461.4C227.1 459.4 229.4 457.8 232.3 457.8C235.3 457.5 237.9 459.1 237.9 461.4zM206.8 456.9C206.1 458.9 208.1 461.2 211.1 461.8C213.7 462.8 216.7 461.8 217.3 459.8C217.9 457.8 216 455.5 213 454.6C210.4 453.9 207.5 454.9 206.8 456.9zM251 455.2C248.1 455.9 246.1 457.8 246.4 460.1C246.7 462.1 249.3 463.4 252.3 462.7C255.2 462 257.2 460.1 256.9 458.1C256.6 456.2 253.9 454.9 251 455.2zM316.8 72C178.1 72 72 177.3 72 316C72 426.9 141.8 521.8 241.5 555.2C254.3 557.5 258.8 549.6 258.8 543.1C258.8 536.9 258.5 502.7 258.5 481.7C258.5 481.7 188.5 496.7 173.8 451.9C173.8 451.9 162.4 422.8 146 415.3C146 415.3 123.1 399.6 147.6 399.9C147.6 399.9 172.5 401.9 186.2 425.7C208.1 464.3 244.8 453.2 259.1 446.6C261.4 430.6 267.9 419.5 275.1 412.9C219.2 406.7 162.8 398.6 162.8 302.4C162.8 274.9 170.4 261.1 186.4 243.5C183.8 237 175.3 210.2 189 175.6C209.9 169.1 258 202.6 258 202.6C278 197 299.5 194.1 320.8 194.1C342.1 194.1 363.6 197 383.6 202.6C383.6 202.6 431.7 169 452.6 175.6C466.3 210.3 457.8 237 455.2 243.5C471.2 261.2 481 275 481 302.4C481 398.9 422.1 406.6 366.2 412.9C375.4 420.8 383.2 435.8 383.2 459.3C383.2 493 382.9 534.7 382.9 542.9C382.9 549.4 387.5 557.3 400.2 555C500.2 521.8 568 426.9 568 316C568 177.3 455.5 72 316.8 72zM169.2 416.9C167.9 417.9 168.2 420.2 169.9 422.1C171.5 423.7 173.8 424.4 175.1 423.1C176.4 422.1 176.1 419.8 174.4 417.9C172.8 416.3 170.5 415.6 169.2 416.9zM158.4 408.8C157.7 410.1 158.7 411.7 160.7 412.7C162.3 413.7 164.3 413.4 165 412C165.7 410.7 164.7 409.1 162.7 408.1C160.7 407.5 159.1 407.8 158.4 408.8zM190.8 444.4C189.2 445.7 189.8 448.7 192.1 450.6C194.4 452.9 197.3 453.2 198.6 451.6C199.9 450.3 199.3 447.3 197.3 445.4C195.1 443.1 192.1 442.8 190.8 444.4zM179.4 429.7C177.8 430.7 177.8 433.3 179.4 435.6C181 437.9 183.7 438.9 185 437.9C186.6 436.6 186.6 434 185 431.7C183.6 429.4 181 428.4 179.4 429.7z"/></svg></span>
                                             <span class="elementor-icon-list-text"></span>
-                                        </li>
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-icon">
-                                                <i aria-hidden="true"
-                                                    class="arolax-theme arolax-wcf-icon icon-wcf-twitter"></i>
-                                            </span>
-                                            <span class="elementor-icon-list-text"></span>
-                                        </li>
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-icon">
-                                                <i aria-hidden="true"
-                                                    class="arolax-theme arolax-wcf-icon icon-wcf-instragram"></i>
-                                            </span>
-                                            <span class="elementor-icon-list-text"></span>
-                                        </li>
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-icon">
-                                                <i aria-hidden="true"
-                                                    class="arolax-theme arolax-wcf-icon icon-wcf-linkdin"></i>
-                                            </span>
-                                            <span class="elementor-icon-list-text"></span>
-                                        </li>
-                                    </ul>
-                                </div>
+                                        </a>
+									</li>
+									
+								</ul>
                             </div>
-                        </div>
-                        <div class="elementor-element elementor-element-d8d00b6 e-con-full e-flex e-con e-child"
-                            data-id="d8d00b6" data-element_type="container"
-                            data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                            <div class="elementor-element elementor-element-868c34b e-flex e-con-boxed e-con e-child"
-                                data-id="868c34b" data-element_type="container"
-                                data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-744d705 e-con-full e-flex e-con e-child"
-                                        data-id="744d705" data-element_type="container"
-                                        data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                                        <div class="elementor-element elementor-element-c9d63c7 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-wcf--title"
-                                            data-id="c9d63c7" data-element_type="widget"
-                                            data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                            data-widget_type="wcf--title.default">
-                                            <div class="elementor-widget-container">
-                                                <h3 class="wcf--title">Service</h3>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1b49034 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                            data-id="1b49034" data-element_type="widget"
-                                            data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                            data-widget_type="icon-list.default">
-                                            <div class="elementor-widget-container">
-                                                <ul class="elementor-icon-list-items">
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+						</div>
+                        
+						
+					</div>
+					<div class="elementor-element elementor-element-d8d00b6 e-con-full e-flex e-con e-child"
+						data-id="d8d00b6" data-element_type="container"
+						data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+						<div class="elementor-element elementor-element-868c34b e-flex e-con-boxed e-con e-child"
+							data-id="868c34b" data-element_type="container"
+							data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-744d705 e-con-full e-flex e-con e-child"
+									data-id="744d705" data-element_type="container"
+									data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+									<div class="elementor-element elementor-element-c9d63c7 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-wcf--title"
+										data-id="c9d63c7" data-element_type="widget"
+										data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
+										data-widget_type="wcf--title.default">
+										<div class="elementor-widget-container">
+											<h3 class="wcf--title">Know More</h3>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-1b49034 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+										data-id="1b49034" data-element_type="widget"
+										data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
+										data-widget_type="icon-list.default">
+										<div class="elementor-widget-container">
+											<ul class="elementor-icon-list-items">
+												<li class="elementor-icon-list-item">
+													<a href="#">
 
-                                                            <span class="elementor-icon-list-text">UI
-                                                                Design</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">Resume
+</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
 
-                                                            <span class="elementor-icon-list-text">Web
-                                                                Design</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">Projects</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
 
-                                                            <span
-                                                                class="elementor-icon-list-text">Branding</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">Certificates</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
 
-                                                            <span
-                                                                class="elementor-icon-list-text">WebFlow</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">Research</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-be55bad e-con-full e-flex e-con e-child"
+									data-id="be55bad" data-element_type="container"
+									data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+									<div class="elementor-element elementor-element-b5d5ac2 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-wcf--title"
+										data-id="b5d5ac2" data-element_type="widget"
+										data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
+										data-widget_type="wcf--title.default">
+										<div class="elementor-widget-container">
+											<h3 class="wcf--title">Pages</h3>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-33c0887 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+										data-id="33c0887" data-element_type="widget"
+										data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
+										data-widget_type="icon-list.default">
+										<div class="elementor-widget-container">
+											<ul class="elementor-icon-list-items">
+												<li class="elementor-icon-list-item">
+													<a href="{{asset('/')}}">
 
-                                                            <span
-                                                                class="elementor-icon-list-text">Development</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-be55bad e-con-full e-flex e-con e-child"
-                                        data-id="be55bad" data-element_type="container"
-                                        data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                                        <div class="elementor-element elementor-element-b5d5ac2 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-wcf--title"
-                                            data-id="b5d5ac2" data-element_type="widget"
-                                            data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                            data-widget_type="wcf--title.default">
-                                            <div class="elementor-widget-container">
-                                                <h3 class="wcf--title">Company</h3>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-33c0887 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                            data-id="33c0887" data-element_type="widget"
-                                            data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                            data-widget_type="icon-list.default">
-                                            <div class="elementor-widget-container">
-                                                <ul class="elementor-icon-list-items">
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">Home</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="{{asset('My-Work')}}">
 
-                                                            <span
-                                                                class="elementor-icon-list-text">Home</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">My Work</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="{{asset('About-Me')}}">
 
-                                                            <span class="elementor-icon-list-text">About
-                                                                Us</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">About Me</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="{{asset('My-Learning')}}">
 
-                                                            <span
-                                                                class="elementor-icon-list-text">Services</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+														<span class="elementor-icon-list-text">My Learning</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-786ffff e-con-full e-flex e-con e-child"
+									data-id="786ffff" data-element_type="container"
+									data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+									<div class="elementor-element elementor-element-c977ff0 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-wcf--title"
+										data-id="c977ff0" data-element_type="widget"
+										data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
+										data-widget_type="wcf--title.default">
+										<div class="elementor-widget-container">
+											<h3 class="wcf--title">Where data meets innovation.</h3>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-7186038 elementor-widget-mobile_extra__width-initial wcf-t-animation-none elementor-widget elementor-widget-text-editor"
+										data-id="7186038" data-element_type="widget"
+										data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
+										data-widget_type="text-editor.default">
+										<div class="elementor-widget-container">
+											<style>
+												/*! elementor - v3.23.0 - 05-08-2024 */
+												.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+													background-color: #69727d;
+													color: #fff
+												}
 
-                                                            <span
-                                                                class="elementor-icon-list-text">Career</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
+												.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+													color: #69727d;
+													border: 3px solid;
+													background-color: transparent
+												}
 
-                                                            <span
-                                                                class="elementor-icon-list-text">Contact</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-786ffff e-con-full e-flex e-con e-child"
-                                        data-id="786ffff" data-element_type="container"
-                                        data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                                        <div class="elementor-element elementor-element-c977ff0 elementor-widget__width-initial wcf-t-animation-none elementor-widget elementor-widget-wcf--title"
-                                            data-id="c977ff0" data-element_type="widget"
-                                            data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                            data-widget_type="wcf--title.default">
-                                            <div class="elementor-widget-container">
-                                                <h3 class="wcf--title">Newsletter</h3>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-7186038 elementor-widget-mobile_extra__width-initial wcf-t-animation-none elementor-widget elementor-widget-text-editor"
-                                            data-id="7186038" data-element_type="widget"
-                                            data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                    /*! elementor - v3.23.0 - 05-08-2024 */
-                                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-                                                        background-color: #69727d;
-                                                        color: #fff
-                                                    }
+												.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+													margin-top: 8px
+												}
 
-                                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-                                                        color: #69727d;
-                                                        border: 3px solid;
-                                                        background-color: transparent
-                                                    }
+												.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+													width: 1em;
+													height: 1em
+												}
 
-                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-                                                        margin-top: 8px
-                                                    }
+												.elementor-widget-text-editor .elementor-drop-cap {
+													float: left;
+													text-align: center;
+													line-height: 1;
+													font-size: 50px
+												}
 
-                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-                                                        width: 1em;
-                                                        height: 1em
-                                                    }
+												.elementor-widget-text-editor .elementor-drop-cap-letter {
+													display: inline-block
+												}
+											</style>Transforming raw data into meaningful insights for a smarter future.
+										</div>
+									</div>
+									
+<div class="elementor-element elementor-element-b9cb4d4 elementor-widget elementor-widget-wcf--site-logo"
+							data-id="b9cb4d4" data-element_type="widget"
+							data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
+							data-widget_type="wcf--site-logo.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-image">
+									<a href="{{asset('/')}}" aria-label="Site Logo">
+										<img width="188" height="51" src="images/hero-logo.PNG"
+											class="attachment-full size-full wp-image-1483" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
 
-                                                    .elementor-widget-text-editor .elementor-drop-cap {
-                                                        float: left;
-                                                        text-align: center;
-                                                        line-height: 1;
-                                                        font-size: 50px
-                                                    }
 
-                                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
-                                                        display: inline-block
-                                                    }
-                                                </style> Feel free to reach out if you want to collaborate
-                                                with us, or simply chat.
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-b440ae1 elementor-widget__width-initial elementor-widget elementor-widget-wcf--mailchimp"
-                                            data-id="b440ae1" data-element_type="widget"
-                                            data-settings="{&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                            data-widget_type="wcf--mailchimp.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="wcf--mailchimp">
-                                                    <div class="mailchimp-response-message"></div>
-                                                    <form class="wcf-mailchimp-form wcf--form-wrapper"
-                                                        data-key="dzFjMmYwYzEwZDBhYThlYzQ2MmQ1M2ZhZWNkYmQ1MzA4ZjczYS11czEwdzFjMmY="
-                                                        data-list-id="bb9bc4e11b" data-double-opt=""
-                                                        data-list-tags="">
-                                                        <div class="input-wrapper">
-                                                            <span class="elementor-screen-only">Email</span>
 
-                                                            <div class="input before">
-                                                                <div class="icon">
-                                                                    <i aria-hidden="true"
-                                                                        class="arolax-theme arolax-wcf-icon icon-wcf-envelop1"></i>
-                                                                </div>
-                                                                <input required="" type="email" id="email"
-                                                                    name="email"
-                                                                    placeholder="Enter your email">
-                                                            </div>
-                                                        </div>
-                                                        <button class="wcf-mc-button" type="submit"
-                                                            name="wcf-mailchimp"
-                                                            aria-label="Mailchimp Button">
-                                                            <svg aria-hidden="true"
-                                                                class="e-font-icon-svg e-fas-paper-plane"
-                                                                viewBox="0 0 512 512"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z">
-                                                                </path>
-                                                            </svg> </button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-element elementor-element-d5ca9a2 e-flex e-con-boxed e-con e-child"
-                        data-id="d5ca9a2" data-element_type="container"
-                        data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-41f7fe4 e-flex e-con-boxed e-con e-child"
-                                data-id="41f7fe4" data-element_type="container"
-                                data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
-                                <div class="e-con-inner">
-                                    <div class="elementor-element elementor-element-79e4a5d wcf-t-animation-none elementor-widget elementor-widget-wcf--text"
-                                        data-id="79e4a5d" data-element_type="widget"
-                                        data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
-                                        data-widget_type="wcf--text.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="wcf--text">© 2024 <span style="color: #ffffff"><a
-                                                        style="color: #ffffff"
-                                                        href="https://themeforest.net/user/crowdyflow/portfolio">CrowdyTheme</a>
-                                                </span>Agency</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div><!-- #page -->
-    </div>
-    </div>
-    <div class='wcf-scroll-to-top scroll-to-'><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-up"
-    viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-    <path
-    d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
-    </path>
-    </svg></div>
-    <div class="wcf-cursor"></div>
-    <div class="wcf-cursor-follower"></div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-d5ca9a2 e-flex e-con-boxed e-con e-child"
+					data-id="d5ca9a2" data-element_type="container"
+					data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+					<div class="e-con-inner">
+						<div class="elementor-element elementor-element-41f7fe4 e-flex e-con-boxed e-con e-child"
+							data-id="41f7fe4" data-element_type="container"
+							data-settings="{&quot;wcf_enable_cursor_hover_effect_text&quot;:&quot;View&quot;,&quot;wcf-animation&quot;:&quot;none&quot;,&quot;wcf_pin_breakpoint&quot;:&quot;mobile&quot;}">
+							<div class="e-con-inner">
+								<div class="elementor-element elementor-element-79e4a5d wcf-t-animation-none elementor-widget elementor-widget-wcf--text"
+									data-id="79e4a5d" data-element_type="widget"
+									data-settings="{&quot;wcf_text_animation&quot;:&quot;none&quot;,&quot;wcf-animation&quot;:&quot;none&quot;}"
+									data-widget_type="wcf--text.default">
+									<div class="elementor-widget-container">
+										<div class="wcf--text">© 2024 <span style="color: #ffffff"><a
+													style="color: #ffffff"
+													href="https://themeforest.net/user/crowdyflow/portfolio">CrowdyTheme</a>
+											</span>Agency</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div><!-- #page -->
+</div>
+</div>
+<div class='wcf-scroll-to-top scroll-to-'><svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-up"
+		viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+		<path
+			d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z">
+		</path>
+	</svg></div>
+<div class="wcf-cursor"></div>
+<div class="wcf-cursor-follower"></div>
 @endsection
 
 @section('footer_scripts')

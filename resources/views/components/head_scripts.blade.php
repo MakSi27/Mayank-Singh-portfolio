@@ -1,4 +1,4 @@
-
+ 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="assets/xmlrpc.php" />
 
@@ -595,11 +595,7 @@
             height: 200px;
         }
     </style>
-    <link rel="icon" href="{{asset('images/cropped-fav-brand-32x32.png')}}" sizes="32x32" />
-    <link rel="icon" href="{{asset('images/cropped-fav-brand-192x192.png')}}"
-        sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{asset('images/cropped-fav-brand-180x180.png')}}" />
-
+    
     <style type="text/css" id="wp-custom-css">
         /** Mega Menu CSS Start **/
         @media (min-width: 1200px) {

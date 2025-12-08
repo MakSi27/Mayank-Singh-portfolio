@@ -162,21 +162,27 @@
                       <div class="Mayank-widget-container">
                         <ul class="Mayank-icon-list-items">
                           <li class="Mayank-icon-list-item">
-                            <a href="http://localhost:10075/">
-                              <span class="Mayank-icon-list-text">Home</span>
+                            <a href="{{asset('Portfolio')}}">
+                              <span class="Mayank-icon-list-text">Portfolio</span>
                             </a>
                           </li>
                           <li class="Mayank-icon-list-item">
-                            <a href="http://localhost:10075/about-style-01/">
+                            <a href="{{asset('My-Work')}}">
+                              <span class="Mayank-icon-list-text">My Work</span
+                              >
+                            </a>
+                          </li>
+                          <li class="Mayank-icon-list-item">
+                            <a href="{{asset('About-Me')}}">
                               <span class="Mayank-icon-list-text"
                                 >About Me</span
                               >
                             </a>
                           </li>
                           <li class="Mayank-icon-list-item">
-                            <a href="http://localhost:10075/about-style-01/">
+                            <a href="{{asset('My-Learning')}}">
                               <span class="Mayank-icon-list-text"
-                                >My Work</span
+                                >My Learning</span
                               >
                             </a>
                           </li>
@@ -278,7 +284,7 @@
                           <li class="Mayank-icon-list-item">
                             <a href="#">
                               <span class="Mayank-icon-list-text"
-                                >Contact for appointment</span
+                                >Feel free to Email</span
                               >
                             </a>
                           </li>

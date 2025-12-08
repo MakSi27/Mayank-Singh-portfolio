@@ -8,7 +8,7 @@
     <meta name="description"
         content="Arolax is a versatile, responsive, RTL ready, Woo-Commerce ready and easily customizable digital creative agency &amp; portfolio WordPress theme.">
     <meta name="msapplication-TileImage"
-        content="https://crowdytheme.com/wp/arolax/ai-agencey/wp-content/uploads/sites/16/2024/07/cropped-fav-brand-270x270.png" />
+        content="images/cropped-fav-brand-270x270.png" />
     <meta name="generator"
         content="Elementor 3.23.4; features: e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_lazyload, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-auto">
     <link rel="pingback" href="https://crowdytheme.com/wp/arolax/ai-agencey/xmlrpc.php" />
@@ -266,10 +266,10 @@
                                                     <div class="wcf--image">
                                                         <img fetchpriority="high" decoding="async" width="1400"
                                                             height="500"
-                                                            src="../wp-content/uploads/sites/16/2024/08/imag_banner.jpg"
+                                                            src="images/imag_banner.jpg"
                                                             class="attachment-full size-full wp-image-8319"
                                                             alt=""
-                                                            srcset="https://crowdytheme.com/wp/arolax/ai-agencey/wp-content/uploads/sites/16/2024/08/imag_banner.jpg 1400w, https://crowdytheme.com/wp/arolax/ai-agencey/wp-content/uploads/sites/16/2024/08/imag_banner-300x107.jpg 300w, https://crowdytheme.com/wp/arolax/ai-agencey/wp-content/uploads/sites/16/2024/08/imag_banner-1024x366.jpg 1024w, https://crowdytheme.com/wp/arolax/ai-agencey/wp-content/uploads/sites/16/2024/08/imag_banner-768x274.jpg 768w"
+                                                            srcset="images/imag_banner.jpg 1400w, images/imag_banner-300x107.jpg 300w, images/imag_banner-1024x366.jpg 1024w, images/imag_banner-768x274.jpg 768w"
                                                             sizes="(max-width: 1400px) 100vw, 1400px" />
                                                     </div>
                                                 </div>
@@ -364,7 +364,7 @@
                                         <div
                                             class="floating-element wcf-live-anim- elementor-repeater-item-981e176       elementor-hidden-mobile">
                                             <img decoding="async"
-                                                src="https://crowdytheme.com/wp/arolax/ai-agencey/wp-content/uploads/sites/16/2024/07/robot-hand.webp"
+                                                src="images/robot-hand.webp"
                                                 alt="robot-hand" />
                                         </div>
                                     </div>
@@ -380,7 +380,7 @@
                                         <div
                                             class="floating-element wcf-live-anim- elementor-repeater-item-981e176       elementor-hidden-mobile">
                                             <img decoding="async"
-                                                src="https://crowdytheme.com/wp/arolax/ai-agencey/wp-content/uploads/sites/16/2024/07/real-hand.webp"
+                                                src="images/real-hand.webp"
                                                 alt="real-hand" />
                                         </div>
                                     </div>

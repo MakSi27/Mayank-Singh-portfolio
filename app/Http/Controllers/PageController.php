@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function hero(){
-        return view('pages.hero');
+    public function index(){
+        return view('pages.index');
     }
     public function About_Me(){
         return view('pages.About-Me');

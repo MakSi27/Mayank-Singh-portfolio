@@ -8,9 +8,9 @@
     <link rel="alternate" type="application/rss+xml" title="Video Production Agency &raquo; Feed"
         href="{{ asset('https://crowdytheme.com/wp/arolax/video-production/feed/') }}" />
     <link rel="alternate" type="application/rss+xml" title="Video Production Agency &raquo; Comments Feed"
-        href="{{ asset('https://crowdytheme.com/wp/arolax/video-production/comments/feed/') }}" />
+        href="{{ asset('') }}" />
 
-        <link rel='stylesheet' id='elementor-post-7595-css' href='{{ asset('css/post-75958f33.min.css') }}'
+        <link rel='stylesheet' id='elementor-post-7595-css' href="{{ asset('css/post-75958f33.min.css') }}"
         type='text/css' media='all' />
     <style id='wcf-scroll-to-top-inline-css' type='text/css'>
         .wcf-scroll-to-top {
@@ -52,10 +52,6 @@
         media='all' />
 
 
-    <link rel="icon" href="{{ asset('images/fav-brand.png') }}" sizes="32x32" />
-    <link rel="icon" href="{{ asset('images/fav-brand.png') }}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{ asset('images/fav-brand.png') }}" />
-    <meta name="msapplication-TileImage" content="{{ asset('images/fav-brand.png') }}" />
 
 
     <link rel="https://api.w.org/" href="https://crowdytheme.com/wp/arolax/video-production/wp-json/" />
@@ -893,7 +889,7 @@
                             data-widget_type="wcf--arolax-button.default">
                             <div class="elementor-widget-container">
                                 <div class="wc-btn-wrapper style-3">
-                                    <a href="https://crowdytheme.com/wp/arolax/video-production/about-style-02/"
+                                    <a href=""
                                         class="wc-btn-primary btn-text-flip">
                                         <span data-text="Learn More">
                                             Learn More </span>
@@ -1365,7 +1361,7 @@
                             data-widget_type="wcf--arolax-button.default">
                             <div class="elementor-widget-container">
                                 <div class="wc-btn-wrapper style-3">
-                                    <a href="https://crowdytheme.com/wp/arolax/video-production/contact-us/"
+                                    <a href=""
                                         class="wc-btn-primary btn-text-flip">
                                         <span data-text="Get started">
                                             Get started </span>
@@ -1416,7 +1412,7 @@
                                         <div class="elementor-icon-box-wrapper">
 
                                             <div class="elementor-icon-box-icon">
-                                                <a href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/"
+                                                <a href=""
                                                     class="elementor-icon elementor-animation-" tabindex="-1">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14"
                                                         viewBox="0 0 16 14" fill="none">
@@ -1430,7 +1426,7 @@
 
                                                 <h3 class="elementor-icon-box-title">
                                                     <a
-                                                        href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/">
+                                                        href="">
                                                         Stage Naga Dance </a>
                                                 </h3>
 
@@ -1586,7 +1582,7 @@
                                         <div class="elementor-icon-box-wrapper">
 
                                             <div class="elementor-icon-box-icon">
-                                                <a href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/"
+                                                <a href=""
                                                     class="elementor-icon elementor-animation-" tabindex="-1">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14"
                                                         viewBox="0 0 16 14" fill="none">
@@ -1600,7 +1596,7 @@
 
                                                 <h3 class="elementor-icon-box-title">
                                                     <a
-                                                        href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/">
+                                                        href="">
                                                         Stage Naga Dance </a>
                                                 </h3>
 
@@ -1661,7 +1657,7 @@
                                         <div class="elementor-icon-box-wrapper">
 
                                             <div class="elementor-icon-box-icon">
-                                                <a href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/"
+                                                <a href=""
                                                     class="elementor-icon elementor-animation-" tabindex="-1">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14"
                                                         viewBox="0 0 15 14" fill="none">
@@ -1675,7 +1671,7 @@
 
                                                 <h3 class="elementor-icon-box-title">
                                                     <a
-                                                        href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/">
+                                                        href="">
                                                         Stage Naga Dance </a>
                                                 </h3>
 
@@ -1736,7 +1732,7 @@
                                         <div class="elementor-icon-box-wrapper">
 
                                             <div class="elementor-icon-box-icon">
-                                                <a href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/"
+                                                <a href=""
                                                     class="elementor-icon elementor-animation-" tabindex="-1">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="14"
                                                         viewBox="0 0 17 14" fill="none">
@@ -1750,7 +1746,7 @@
 
                                                 <h3 class="elementor-icon-box-title">
                                                     <a
-                                                        href="https://crowdytheme.com/wp/arolax/video-production/service-style-02/">
+                                                        href="">
                                                         Stage Naga Dance </a>
                                                 </h3>
 
@@ -2087,7 +2083,7 @@
                         data-widget_type="wcf--arolax-button.default">
                         <div class="elementor-widget-container">
                             <div class="wc-btn-wrapper style-3">
-                                <a href="https://crowdytheme.com/wp/arolax/video-production/contact-us/"
+                                <a href=""
                                     class="wc-btn-primary btn-text-flip">
                                     <span data-text="Choose Now">
                                         Choose Now </span>
@@ -2207,7 +2203,7 @@
                         data-widget_type="wcf--arolax-button.default">
                         <div class="elementor-widget-container">
                             <div class="wc-btn-wrapper style-3">
-                                <a href="https://crowdytheme.com/wp/arolax/video-production/contact-us/"
+                                <a href=""
                                     class="wc-btn-primary btn-text-flip">
                                     <span data-text="Choose Now">
                                         Choose Now </span>
